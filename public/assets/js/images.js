@@ -6,7 +6,7 @@ let imagesArray = ['url("images/img_one.jpg")', 'url("images/img_two.jpg")', 'ur
 
 let randomNumber = Math.floor(Math.random() * imagesArray.length);
 
-document.getElementById('#top').style.backgroundImage = imagesArray[randomIndex];
+document.getElementById('section.one').css = imagesArray[randomIndex];
 
 setTimeout(function() {
   randomImage();
