@@ -6,11 +6,14 @@
 		width: 1400px;
 	}
 
+
+
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
 				width: 1200px;
 			}
+
 
 		}
 

@@ -1,6 +1,4 @@
-html {
-  box-sizing: border-box;
-}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -674,8 +672,7 @@ section, article {
             }
       
             #main > section.one {
-              background-color: #81918E;
-              background-image: url("../../images/banner.jpg");
+              background-image: url("../../../images/img_one.jpg");
             }
       
             #main > section.two {
@@ -703,7 +700,20 @@ section, article {
   /* Header */
 
     #header {
-      width: 300px;
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+      width: 20%;
     }
 
   /* Footer */
@@ -724,17 +734,17 @@ section, article {
 
 @media screen and (min-width: 961px) and (max-width: 1620px) {
 
-  /* Main */
+  Main 
 
-    #main > section {
-      padding: 3em 0;
-    }
+  #main > section {
+  padding: 3em 0;
+  }
 
-    #main section.cover {
+  #main section.cover {
       padding: 5em 0;
-    }
+    } 
 
-}
+ } 
 
 /* Narrow */
 
@@ -765,8 +775,23 @@ section, article {
   /* Header */
 
     #header {
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
       width: 20%;
     }
+
+  
 
     #logo .image {
       position: relative;
@@ -845,7 +870,21 @@ section, article {
   /* Header */
 
     #header {
-      -moz-backface-visibility: hidden;
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+      width: 20%;
+      /* -moz-backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       -ms-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -866,7 +905,7 @@ section, article {
       top: 0;
       width: 275px;
       z-index: 10002;
-      width: 275px;
+      width: 275px; */
       background: #222729 url("images/overlay.png");
       box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
     }
@@ -885,6 +924,11 @@ section, article {
 
     #logo {
       margin: 1.5em 1.25em 1.25em 1.25em;
+    }
+
+    #logo .image {
+      position: relative;
+      margin: 0 0 0.5em 0;
     }
 
     #nav ul li a {
@@ -920,7 +964,7 @@ section, article {
       }
 
         #headerToggle .toggle:before {
-          font-family: FontAwesome;
+          /* font-family: FontAwesome;
           text-decoration: none;
           font-style: normal;
           font-weight: normal;
@@ -939,7 +983,7 @@ section, article {
           display: block;
           width: 3.25em;
           height: 2.25em;
-          line-height: 2.25em;
+          line-height: 2.25em; */
         }
 
     body.header-visible #main {
@@ -1012,6 +1056,27 @@ section, article {
 
     .container {
       padding: 0 15px 0 15px;
+    }
+
+    #header{
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+      width: 20%;
+    }
+
+    #logo {
+      margin: 1.5em 1.25em 1.25em 1.25em;
     }
 
 

@@ -2233,7 +2233,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: rgb(163, 192, 187);
 				background-image: url("../../images/banner.jpg");
 			}
 
