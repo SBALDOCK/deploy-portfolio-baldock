@@ -23,4 +23,4 @@ Start time: 2:35PM
 
 Finish time: 3:35PM
 
-Actual time needed to complete: __________
+Actual time needed to complete: 8 Hours
